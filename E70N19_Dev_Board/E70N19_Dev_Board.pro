@@ -1,4 +1,4 @@
-update=9/27/2017 6:23:07 PM
+update=Thu 28 Sep 2017 04:27:54 PM EDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,8 +23,6 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=
@@ -61,4 +59,7 @@ LibName29=opto
 LibName30=atmel
 LibName31=contrib
 LibName32=valves
-LibName33=C:/Users/ahoppe/Documents/GitHub/E70N19_Dev_Board/eclectronics_lib
+LibName33=library/atsame70n19
+LibName34=library/eclectronics
+[general]
+version=1
