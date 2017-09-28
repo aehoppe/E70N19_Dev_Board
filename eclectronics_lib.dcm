@@ -1,0 +1,14 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ARM-Cortex-Debug-10
+D ARM Cortex 10-pin JTAG/Debug Header
+K JTAG ARM conn
+F http://infocenter.arm.com/help/topic/com.arm.doc.faqs/attached/13634/cortex_debug_connectors.pdf
+$ENDCMP
+#
+$CMP MicroUSB
+D Strain-Relieved USB mini/micro connector 2040002-1
+K connector USB
+$ENDCMP
+#
+#End Doc Library
