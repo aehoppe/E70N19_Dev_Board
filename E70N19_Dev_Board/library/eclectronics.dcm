@@ -1,7 +1,46 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP ARM-Cortex-Debug-10
+D 10-pin ARM Cortex Debug Connector
+K conn JTAG ARM debug
+F http://infocenter.arm.com/help/topic/com.arm.doc.faqs/attached/13634/cortex_debug_connectors.pdf
+$ENDCMP
+#
+$CMP ATSAME70N19
+D 32-bit SAM Cortex M7 Microcontroller 512K Flash
+K ARM microcontroller mcu
+F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-11296-32-bit-Cortex-M7-Microcontroller-SAM-E70Q-SAM-E70N-SAM-E70J_Datasheet.pdf
+$ENDCMP
+#
 $CMP BM71BLES1FC2
 F http://ww1.microchip.com/downloads/en/DeviceDoc/60001372F.pdf
+D Castellated BLE Module
+K bluetooth ble module
+F http://ww1.microchip.com/downloads/en/DeviceDoc/60001372F.pdf
+$ENDCMP
+#
+$CMP MCP73831
+D Single-Cell, Fully Integrated Li-Ion Li-Polymer Charge Management Controller
+K li-ion li-poly charger battery
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf
+$ENDCMP
+#
+$CMP RT9818A-18GV
+D 1.8V Micro-Power Voltage Detector
+K voltage detector brown out
+F http://www.richtek.com/assets/product_file/RT9818/DS9818-10.pdf
+$ENDCMP
+#
+$CMP SN65HVD233-Q1
+D 3.3-V Automotive CAN Bus Transceiver
+K interface transceiver 3v3 CAN
+F http://www.ti.com/lit/ds/symlink/sn65hvd233-q1.pdf
+$ENDCMP
+#
+$CMP TPS2112A
+D Autoswitching Power Mux
+K power mux
+F http://www.ti.com/lit/ds/symlink/tps2112a.pdf
 $ENDCMP
 #
 #End Doc Library
