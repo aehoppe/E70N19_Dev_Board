@@ -1,3 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP SN65HVD233-Q1
+D 3.3-V Automotive CAN Bus Transceiver
+K interface transceiver 3v3 CAN
+F http://www.ti.com/lit/ds/symlink/sn65hvd233-q1.pdf
+$ENDCMP
+#
 #End Doc Library
