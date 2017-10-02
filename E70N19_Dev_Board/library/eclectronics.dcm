@@ -13,7 +13,6 @@ F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-11296-32-bit-Cortex-M7-M
 $ENDCMP
 #
 $CMP BM71BLES1FC2
-F http://ww1.microchip.com/downloads/en/DeviceDoc/60001372F.pdf
 D Castellated BLE Module
 K bluetooth ble module
 F http://ww1.microchip.com/downloads/en/DeviceDoc/60001372F.pdf
