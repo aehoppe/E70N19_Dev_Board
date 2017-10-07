@@ -1,4 +1,4 @@
-update=Sat 07 Oct 2017 07:00:08 PM EDT
+update=Sat 07 Oct 2017 07:46:06 PM EDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,8 +23,6 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
@@ -74,3 +72,5 @@ LibName32=contrib
 LibName33=valves
 LibName34=library/eclectronics
 LibName35=library/usb_microb_2040002-1
+[general]
+version=1
