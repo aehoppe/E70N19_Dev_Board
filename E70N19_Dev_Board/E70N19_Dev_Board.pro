@@ -1,4 +1,4 @@
-update=Fri 06 Oct 2017 02:22:13 PM EDT
+update=Sat 07 Oct 2017 07:00:08 PM EDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -73,3 +73,4 @@ LibName31=atmel
 LibName32=contrib
 LibName33=valves
 LibName34=library/eclectronics
+LibName35=library/usb_microb_2040002-1
