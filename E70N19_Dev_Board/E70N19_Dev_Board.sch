@@ -2454,4 +2454,8 @@ Wire Wire Line
 	15825 3850 16225 3850
 Wire Wire Line
 	16225 3850 16225 3800
+Text Label 6725 6500 0    60   ~ 0
+D_N
+Text Label 6725 6600 0    60   ~ 0
+D_P
 $EndSCHEMATC
