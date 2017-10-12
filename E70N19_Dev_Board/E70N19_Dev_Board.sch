@@ -1691,8 +1691,6 @@ F 3 "" H 15525 6850 50  0001 C CNN
 	1    15525 6850
 	1    0    0    -1  
 $EndComp
-Text Label 15325 6650 2    60   ~ 0
-PA5
 Text Label 15325 6550 2    60   ~ 0
 PD11
 Text Label 15325 6450 2    60   ~ 0
@@ -1719,8 +1717,6 @@ Text Label 15325 7350 2    60   ~ 0
 PA4
 Text Label 15325 7450 2    60   ~ 0
 PD17
-Text Label 15325 7550 2    60   ~ 0
-PA5
 Text Label 15825 7550 0    60   ~ 0
 PA27
 Text Label 15825 7450 0    60   ~ 0
@@ -2458,4 +2454,21 @@ Text Label 6725 6600 0    60   ~ 0
 D_P
 Text Label 15825 6150 0    60   ~ 0
 PA23
+$Comp
+L GND #PWR055
+U 1 1 59E0B7E1
+P 15000 6675
+F 0 "#PWR055" H 15000 6425 50  0001 C CNN
+F 1 "GND" H 15000 6525 50  0000 C CNN
+F 2 "" H 15000 6675 50  0000 C CNN
+F 3 "" H 15000 6675 50  0000 C CNN
+	1    15000 6675
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15325 6650 15000 6650
+Wire Wire Line
+	15000 6650 15000 6675
+Text Label 15325 7550 2    60   ~ 0
+PA5
 $EndSCHEMATC
