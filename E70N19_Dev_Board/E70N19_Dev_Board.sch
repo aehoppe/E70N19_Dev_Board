@@ -4,6 +4,7 @@ LIBS:power
 LIBS:device
 LIBS:switches
 LIBS:relays
+LIBS:motors
 LIBS:transistors
 LIBS:conn
 LIBS:linear
@@ -1571,56 +1572,22 @@ F 3 "" H 15525 4550 50  0001 C CNN
 	1    15525 4550
 	1    0    0    -1  
 $EndComp
-Text Label 15825 4450 0    60   ~ 0
-PA13
-Text Label 15825 4550 0    60   ~ 0
-PA22
-Text Label 15825 4650 0    60   ~ 0
-PA21
-Text Label 15825 4750 0    60   ~ 0
-PA17
 Text Label 15825 4850 0    60   ~ 0
-PA18
-Text Label 15825 4950 0    60   ~ 0
-PA19
+PA17
 Text Label 15825 5050 0    60   ~ 0
-PA20
-Text Label 15825 5150 0    60   ~ 0
-PB0
+PA18
 Text Label 15825 5250 0    60   ~ 0
-PB1
-Text Label 15325 5250 2    60   ~ 0
-PD31
+PA19
 Text Label 15325 5150 2    60   ~ 0
-PD0
-Text Label 15325 5050 2    60   ~ 0
-PB13
+PA20
 Text Label 15325 4950 2    60   ~ 0
-PD1
-Text Label 15325 4850 2    60   ~ 0
-PD2
+PB0
 Text Label 15325 4750 2    60   ~ 0
-PD3
-Text Label 15325 4650 2    60   ~ 0
-PD4
-Text Label 15325 4550 2    60   ~ 0
-PD5
-Text Label 15325 4450 2    60   ~ 0
-PD6
-Text Label 15325 4350 2    60   ~ 0
-PD7
-Text Label 15325 4250 2    60   ~ 0
-PA31
+PB1
 Text Label 15325 4150 2    60   ~ 0
-PA30
-Text Label 15325 4050 2    60   ~ 0
-PD8
+PD31
 Text Label 15325 3950 2    60   ~ 0
-PA28
-Text Label 15325 3850 2    60   ~ 0
-PD9
-Text Label 15825 4350 0    60   ~ 0
-PA16
+PD0
 Text Label 8375 8350 0    60   ~ 0
 PA5
 Text Label 8375 8450 0    60   ~ 0
@@ -1691,63 +1658,21 @@ F 3 "" H 15525 6850 50  0001 C CNN
 	1    15525 6850
 	1    0    0    -1  
 $EndComp
-Text Label 15325 6650 2    60   ~ 0
-PA5
-Text Label 15325 6550 2    60   ~ 0
-PD11
-Text Label 15325 6450 2    60   ~ 0
-PA1
-Text Label 15325 6350 2    60   ~ 0
-PD10
-Text Label 15325 6250 2    60   ~ 0
-PA0
-Text Label 15325 6150 2    60   ~ 0
-PD15
-Text Label 15325 6750 2    60   ~ 0
-PA2
-Text Label 15325 6850 2    60   ~ 0
-PD12
-Text Label 15325 6950 2    60   ~ 0
-PA3
-Text Label 15325 7050 2    60   ~ 0
-PD13
-Text Label 15325 7150 2    60   ~ 0
-PD14
-Text Label 15325 7250 2    60   ~ 0
-PD16
-Text Label 15325 7350 2    60   ~ 0
-PA4
-Text Label 15325 7450 2    60   ~ 0
-PD17
-Text Label 15325 7550 2    60   ~ 0
-PA5
-Text Label 15825 7550 0    60   ~ 0
-PA27
 Text Label 15825 7450 0    60   ~ 0
+PA16
+Text Label 15325 6150 2    60   ~ 0
+PA27
+Text Label 15325 6550 2    60   ~ 0
 PD18
-Text Label 15825 7350 0    60   ~ 0
+Text Label 15325 6750 2    60   ~ 0
 PA12
-Text Label 15825 7250 0    60   ~ 0
+Text Label 15325 6950 2    60   ~ 0
 PD19
-Text Label 15825 7150 0    60   ~ 0
-PD20
-Text Label 15825 7050 0    60   ~ 0
-PA11
-Text Label 15825 6950 0    60   ~ 0
-PD21
-Text Label 15825 6850 0    60   ~ 0
-PA26
-Text Label 15825 6750 0    60   ~ 0
-PD22
-Text Label 15825 6650 0    60   ~ 0
-PA25
-Text Label 15825 6550 0    60   ~ 0
-PA24
-Text Label 15825 6450 0    60   ~ 0
+Text Label 15325 6350 2    60   ~ 0
 PA14
-Text Label 15825 6350 0    60   ~ 0
+Text Label 15325 7150 2    60   ~ 0
 PA15
-Text Label 15825 6250 0    60   ~ 0
+Text Label 15325 7350 2    60   ~ 0
 PD27
 NoConn ~ 12925 5800
 NoConn ~ 11725 5800
@@ -2456,6 +2381,6 @@ Text Label 6725 6500 0    60   ~ 0
 D_N
 Text Label 6725 6600 0    60   ~ 0
 D_P
-Text Label 15825 6150 0    60   ~ 0
+Text Label 15325 7550 2    60   ~ 0
 PA23
 $EndSCHEMATC
