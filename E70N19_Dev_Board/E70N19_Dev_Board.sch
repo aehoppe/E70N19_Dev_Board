@@ -4,7 +4,6 @@ LIBS:power
 LIBS:device
 LIBS:switches
 LIBS:relays
-LIBS:motors
 LIBS:transistors
 LIBS:conn
 LIBS:linear
@@ -2136,11 +2135,6 @@ $EndComp
 Wire Wire Line
 	2650 2800 2650 2850
 Wire Wire Line
-	3425 1800 3825 1800
-Wire Wire Line
-	3825 1800 3825 2200
-Connection ~ 3825 2200
-Wire Wire Line
 	3125 1800 2775 1800
 Wire Wire Line
 	2775 1800 2775 2300
@@ -2383,4 +2377,9 @@ Text Label 6725 6600 0    60   ~ 0
 D_P
 Text Label 15325 7550 2    60   ~ 0
 PA23
+Wire Wire Line
+	3425 1800 3800 1800
+Wire Wire Line
+	3800 1800 3800 2100
+Connection ~ 3800 2100
 $EndSCHEMATC
