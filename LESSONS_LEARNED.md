@@ -1,3 +1,6 @@
+---
+geometry: margin=1cm
+---
 # Lessons Learned
 
 ## Microcontroller
